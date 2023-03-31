@@ -99,7 +99,7 @@ The process is repeated until a stopping criterion (e.g., a maximum number of it
 
 It's important to note that this project is primarily intended for educational and experimental purposes, and is not optimized for real-life applications. As such, the following limitations should be taken into consideration:
 
-- The use of a recursive implementation of Gradient Boosting in Python can cause errors when dealing with large datasets due to the recursion limit. Users may need to adjust the maximum recursion depth.
+- The use of a recursive implementation of decision trees in Python can cause errors when dealing with large datasets due to the recursion limit. Users may need to adjust the maximum recursion depth.
 
 - The decision tree implementation used in this project does not include stopping parameters to help mitigate overfitting such as minimum samples per leaf and maximum number of features per split.
 
